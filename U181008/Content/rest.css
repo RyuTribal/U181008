@@ -19,6 +19,7 @@ html {
     padding: 0;
     max-width: 100%;
     width: 100%;
+    background-color: rgb(255,224,228);
 }
 
 .aboutContent {
@@ -92,6 +93,21 @@ html {
 .text h3 {
     padding-top: 45%;
     color: rgb(249, 66, 58);
+}
+
+.contactWrapper {
+    padding-left: 20%;
+    padding-top: 1%;
+}
+
+.contactWrapper p{
+    line-height: 2;
+}
+
+.contactHeader {
+    margin: 0;
+    color: rgb(249, 66, 58);
+    
 }
 
 
