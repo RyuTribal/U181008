@@ -7,8 +7,9 @@
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
-    <link href="~/Content/styles.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="~/Content/rest.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top" id="fade">
@@ -31,6 +32,15 @@
 
     <div class="container body-content">
         @RenderBody()
+        <hr />
+        <footer>
+            <ul>
+                <li><a href="https://ryutribal.netlify.com/">Ivan</a></li>
+                <li><a href="https://ryutribal.netlify.com/">Erik</a></li>
+                <li><a href="https://ryutribal.netlify.com/">Wilhelm</a></li>
+            </ul>
+            <p>&copy; @DateTime.Now.Year - Team W.E.I</p>
+        </footer>
     </div>
 
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
