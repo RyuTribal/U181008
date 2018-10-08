@@ -1,0 +1,56 @@
+﻿
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #e65e5a;
+}
+
+.body{
+    margin-top: 40%;
+    margin-left: 20%;
+}
+
+
+.intro{
+    color: white;
+    margin-left: 12%;
+    font-size: 300%;
+}
+
+.start_navigation {
+    list-style: none;
+    margin-right: 3%;
+    padding-left: 20%;
+}
+
+    .start_navigation li {
+        display: inline-block;
+        margin: 3%;
+        padding: 3%;
+        font-size: 150%;
+    }
+
+.start_navigation a {
+    text-decoration: none;
+    color: #e65e5a;
+
+
+}
+
+.start_navigation a:hover{
+    text-decoration: underline;
+}
+
+.body-content{
+    margin-bottom: -100%;
+}
+
+
