@@ -1,1 +1,1 @@
-# My take on a team webpage
+# My take on a team website
